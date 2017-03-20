@@ -1,4 +1,4 @@
-const expect = require('expect')
+const expect = require('chai').expect
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
@@ -9,6 +9,6 @@ describe('index', () => {
   })
 
   it('runs', () => {
-    expect(true).toEqual(true)
+    //expect(true).toEqual(true)
   })
 })
